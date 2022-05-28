@@ -1,0 +1,13 @@
+@keyframes lightOn {
+  from {background-color: #222831}
+  to {background-color: #ECB365}
+}
+
+@keyframes lightOff {
+  from {background-color: #ECB365}
+  to {background-color: #222831}
+}
+
+body {
+  background-color: #222831;
+}
