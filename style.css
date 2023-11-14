@@ -1,13 +1,18 @@
+:root {
+  --light_color: '------';
+  --bg_color: #222831;
+}
+
 @keyframes lightOn {
-  from {background-color: #222831}
-  to {background-color: #ECB365}
+  from {background-color: var(--bg_color)}
+  to {background-color: var(--light_color)}
 }
 
 @keyframes lightOff {
-  from {background-color: #ECB365}
-  to {background-color: #222831}
+  from {background-color: var(--light_color)}
+  to {background-color: var(--bg_color)}
 }
 
 body {
-  background-color: #222831;
+  background-color: var(--bg_color);
 }
